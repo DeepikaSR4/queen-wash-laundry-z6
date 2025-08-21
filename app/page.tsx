@@ -156,7 +156,10 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="py-12 sm:py-16 md:py-24 px-4 relative overflow-hidden">
+      <section
+        id="home"
+        className="min-h-screen flex items-center justify-center py-12 sm:py-16 md:py-24 px-4 relative overflow-hidden"
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-orange-50/50 to-blue-50/50"></div>
         <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-20 h-20 sm:w-32 sm:h-32 bg-orange-200/30 rounded-full blur-3xl"></div>
         <div className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-24 h-24 sm:w-40 sm:h-40 bg-blue-200/30 rounded-full blur-3xl"></div>
@@ -202,7 +205,6 @@ export default function HomePage() {
             {/* <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-sans px-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. </p> */}
-            
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
@@ -215,7 +217,7 @@ export default function HomePage() {
                   Premium Washing
                 </CardTitle>
               </CardHeader>
-                {/* <CardContent className="px-4 sm:px-6">
+              {/* <CardContent className="px-4 sm:px-6">
              <CardDescription className="text-slate-600 leading-relaxed font-sans text-sm sm:text-base">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
                 </CardDescription>
@@ -247,7 +249,7 @@ export default function HomePage() {
                   Professional Ironing
                 </CardTitle>
               </CardHeader>
-             {/* <CardContent className="px-4 sm:px-6">
+              {/* <CardContent className="px-4 sm:px-6">
              <CardDescription className="text-slate-600 leading-relaxed font-sans text-sm sm:text-base">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
                 </CardDescription>
@@ -263,7 +265,7 @@ export default function HomePage() {
                   Pickup & Delivery
                 </CardTitle>
               </CardHeader>
-           {/* <CardContent className="px-4 sm:px-6">
+              {/* <CardContent className="px-4 sm:px-6">
              <CardDescription className="text-slate-600 leading-relaxed font-sans text-sm sm:text-base">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
                 </CardDescription>
@@ -314,11 +316,7 @@ export default function HomePage() {
                 <Button
                   variant="outline"
                   className="w-full border-orange-200 text-orange-600 hover:bg-orange-50 font-sans bg-transparent"
-                  onClick={() =>
-                    window.open(
-                      "https://maps.app.goo.gl/o9K9myxq9Jw7XgDAA",
-                    )
-                  }
+                  onClick={() => window.open("https://maps.app.goo.gl/o9K9myxq9Jw7XgDAA")}
                 >
                   View All Reviews
                 </Button>
@@ -391,17 +389,16 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <div className="bg-white p-2 rounded-lg shadow-inner">
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.785479118643!2d76.695535!3d8.926308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06073e5b715589%3A0x6102475066369f7!2sQueen%20Wash%20Laundry%2C%20Kallerickel%20Jn%2C%20Koivila%20P.O%2C%20Kollam%2C%20Kerala%20691590!5e0!3m2!1sen!2sin!4v1692634567890!5m2!1sen!2sin"
-                width="100%"
-                height="200"
-                style={{border:0}}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-lg"
-                ></iframe>
-
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.785479118643!2d76.695535!3d8.926308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06073e5b715589%3A0x6102475066369f7!2sQueen%20Wash%20Laundry%2C%20Kallerickel%20Jn%2C%20Koivila%20P.O%2C%20Kollam%2C%20Kerala%20691590!5e0!3m2!1sen!2sin!4v1692634567890!5m2!1sen!2sin"
+                    width="100%"
+                    height="200"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="rounded-lg"
+                  ></iframe>
                 </div>
               </CardContent>
             </Card>
