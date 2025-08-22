@@ -329,7 +329,7 @@ export default function HomePage() {
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 font-serif">Contact Us</h2>
             <p className="text-base sm:text-lg text-slate-600 font-sans">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit
+        
             </p>
           </div>
 
@@ -455,7 +455,7 @@ export default function HomePage() {
             <div>
               <h3 className="font-semibold mb-4 font-serif text-base sm:text-lg">Contact Info</h3>
               <div className="space-y-2 text-slate-400 font-sans text-sm sm:text-base">
-                <p>9995202824</p>
+                <p>+91 9995202824</p>
                 <p>Queen Wash Laundry</p>
                 <p>Kallerickel JN koivila P.O, Kerala 691590</p>
               </div>
