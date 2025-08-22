@@ -200,7 +200,7 @@ export default function TermsAndConditions() {
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">Jurisdiction</h2>
-              <p className="mb-4">Any disputes will be subject to the jurisdiction of the courts in Delhi only.</p>
+              <p className="mb-4">Any disputes will be subject to the jurisdiction of the courts in Kerala only.</p>
             </section>
 
             <section className="mb-8">

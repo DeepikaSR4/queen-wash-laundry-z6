@@ -23,7 +23,7 @@ export default function HomePage() {
 
   const copyPhoneNumber = async () => {
     try {
-      await navigator.clipboard.writeText("+1 (555) 123-4567")
+      await navigator.clipboard.writeText("919995202824")
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
     } catch (err) {
@@ -32,7 +32,7 @@ export default function HomePage() {
   }
 
   const bookOnWhatsApp = () => {
-    const phoneNumber = "15551234567" // WhatsApp number without + and and spaces
+    const phoneNumber = "919995202824" // WhatsApp number without + and and spaces
     const message = "Hi! I'd like to book a laundry service with Queen Wash."
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
@@ -176,8 +176,7 @@ export default function HomePage() {
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-slate-600 mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed font-sans px-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+            Say goodbye to laundry day stress! We provide fast, reliable, and eco-friendly laundry & dry-cleaning services, so you can spend more time on what matters most
           </p>
           <div className="flex justify-center px-4">
             <Button
@@ -282,11 +281,10 @@ export default function HomePage() {
             About Queen Wash
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 text-slate-900 font-serif px-2">
-            15 Years of Excellence
+            Fresh Clothes, Fresh Start
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed font-sans px-4 mb-8 sm:mb-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
+           Your clothes deserve care—our team delivers fresh, clean, and neatly folded laundry every time.
           </p>
 
           <div className="max-w-md mx-auto">
@@ -349,14 +347,14 @@ export default function HomePage() {
                   onClick={copyPhoneNumber}
                   className="text-lg sm:text-2xl font-bold text-orange-600 hover:text-orange-700 transition-colors mb-2 font-sans break-all"
                 >
-                  +1 (555) 123-4567
+                  +91 99952 02824
                 </button>
                 <CardDescription className="text-slate-600 font-sans text-sm sm:text-base mb-4">
-                  {copied ? "Phone number copied!" : "Click to copy"} • Lorem ipsum dolor sit
+                  {copied ? "Phone number copied!" : "Click to copy"} • SUN - SAT 9:00 AM - 6:00 PM
                 </CardDescription>
                 <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
                   <Button
-                    onClick={() => window.open("tel:+15551234567", "_self")}
+                    onClick={() => window.open("tel:+91 99952 02824", "_self")}
                     variant="outline"
                     className="flex-1 border-orange-200 text-orange-600 hover:bg-orange-50 font-sans bg-transparent"
                   >
@@ -384,7 +382,7 @@ export default function HomePage() {
                 </div>
                 <CardTitle className="text-xl sm:text-2xl font-bold text-slate-900 mb-2 font-serif">Visit Us</CardTitle>
                 <CardDescription className="text-slate-600 mb-4 font-sans text-sm sm:text-base">
-                  Lorem ipsum dolor sit amet consectetur
+                  Drop by today and experience laundry made easy!
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -422,11 +420,11 @@ export default function HomePage() {
                 </div>
                 <div>
                   <span className="text-lg sm:text-xl font-bold font-serif">Queen Wash</span>
-                  <div className="text-xs sm:text-sm text-slate-400 -mt-1 font-sans">Premium Laundry</div>
+                  <div className="text-xs sm:text-sm text-slate-400 -mt-1 font-sans">Laundry</div>
                 </div>
               </div>
               <p className="text-slate-400 leading-relaxed font-sans text-sm sm:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+                Your trusted partner for clean, cared-for clothes.
               </p>
             </div>
 
@@ -457,9 +455,9 @@ export default function HomePage() {
             <div>
               <h3 className="font-semibold mb-4 font-serif text-base sm:text-lg">Contact Info</h3>
               <div className="space-y-2 text-slate-400 font-sans text-sm sm:text-base">
-                <p>+1 (555) 123-4567</p>
-                <p>Lorem ipsum street</p>
-                <p>Lorem, ipsum 12345</p>
+                <p>9995202824</p>
+                <p>Queen Wash Laundry</p>
+                <p>Kallerickel JN koivila P.O, Kerala 691590</p>
               </div>
             </div>
           </div>

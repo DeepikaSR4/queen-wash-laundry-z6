@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
           <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-muted-foreground mb-6">Effective Date: 5 August 2024</p>
+            <p className="text-muted-foreground mb-6">Effective Date: 22 August 2025</p>
 
             <section className="mb-8">
               <p className="mb-6">
@@ -147,7 +147,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
               <p className="mb-4">
                 If you have any questions or concerns regarding this Privacy Policy, please feel free to contact us at
-                info@queenwashlaundry.in.
+                queenwashlaundry1090@gmail.com
               </p>
               <p className="mb-4">
                 At Queen Wash Laundry, your privacy is our priority. We are committed to maintaining the confidentiality
